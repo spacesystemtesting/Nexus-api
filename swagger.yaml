@@ -13,8 +13,8 @@ info:
 host: "api.scfabyssal.com"
 basePath: "/api"
 tags:
-- name: "pet"
-  description: "Everything about your Pets"
+- name: "user"
+  description: "Gather info or post."
   externalDocs:
     description: "Find out more"
     url: "http://swagger.io"
@@ -29,7 +29,7 @@ schemes:
 - "https"
 - "http"
 paths:
-  /pet/{petId}/uploadImage:
+  /{petId}/uploadImage:
     post:
       tags:
       - "pet"
